@@ -1,0 +1,79 @@
+#sobre{
+    width: 100%;
+    padding: 200px 10%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.sobre-conteudo{
+    width: 50%;
+    min-width: 600px;
+}
+
+.sobre-conteudo h1{
+    font-size: 78px;
+    color: var(--cor-secundaria);
+}
+
+.sobre-conteudo h1 span{
+    color: var(--cor-principal);
+}
+
+.sobre-conteudo p{
+    width: 85%;
+    color: var(--cor-secundaria);
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 75%;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.sobre-linkedin{
+    color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
+    margin-right: 30px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-weight: bold;
+}
+
+.sobre-linkedin:hover{
+    background-color: var(--cor-cinza);
+    box-shadow: 4px 4px 4px #000000;
+}
+
+.sobre-github{
+    color: var(--cor-secundaria);
+    background-color: var(--cor-cinza);
+    padding: 10px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-weight: bold;
+}
+
+.sobre-github:hover{
+    background-color: var(--cor-principal);
+    box-shadow: 4px 4px 4px #000000;
+}
+
+#musica-sobre{
+    position: absolute;
+    left: 5%;
+    top: 8%;
+}
+
+#seta-sobre{
+    position: absolute;
+    left: 22%;
+    bottom: 18%;
+    width: 9%;
+}
