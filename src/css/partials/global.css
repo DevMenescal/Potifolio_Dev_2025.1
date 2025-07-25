@@ -27,3 +27,35 @@ p,input,textarea{
 header, body{
     background-color: var(--cor-fundo);
 }
+
+::selection{
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+}
+
+::-moz-selection{ /* Pseudo-elemento aplica estilos para partes do documento que foram selecionadas pelo usuário (tal como clicar e arrastar o ponteiro do mouse através de um texto. */
+  background-color: var(--cor-principal);
+  color: var(--cor-secundaria);
+}
+
+::-webkit-scrollbar{ /* `Pseudo-elemento CSS afeta o estilo da barra de rolagem de um elemento quando ele tem estouro de rolagem.*/
+  width: 22px;
+}
+
+::-webkit-scrollbar-track{ /* Pseudo-elemento que altera a trilha (barra de progresso) da barra de rolagem, onde há uma barra cinza em cima de uma barra branca.*/
+  background-color: var(--cor-fundo);
+}
+
+::-ms-track{ /* O mesmo que o de cima, só que com compatibilidade para MS Edge.*/
+  background-color: var(--cor-fundo);
+}
+
+::-webkit-scrollbar-thumb{ /* pseudoelemento CSS afeta o estilo da barra de rolagem de um elemento quando ele tem estouro de rolagem. */
+  background-color: var(--cor-principal);
+  border-radius: 30px;
+}
+
+::-ms-thumb{ /* Mesmo que o de cima só que para Microsoft */
+  background-color: var(--cor-principal);
+  border-radius: 30px;
+}
